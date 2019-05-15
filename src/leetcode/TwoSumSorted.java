@@ -3,9 +3,8 @@ package leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by caizo on 2019/5/8.
- */
+// https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+
 public class TwoSumSorted {
     public int[] twoSum(int[] numbers, int target) {
         for (int i = 0; i < numbers.length; i++) {
