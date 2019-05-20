@@ -3,11 +3,10 @@ import leetcode.*;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        JewelsAndStones stone = new JewelsAndStones();
-        String j = "aA";
-        String s = "aAAbbbb";
-        int result = stone.numJewelsInStones(j, s);
-        System.out.print(result);
+        System.out.println("process Main...");
+        RobotReturnToOrigin657 a = new RobotReturnToOrigin657();
+        String test657 = "UDU";
+        boolean testResult = a.judgeCiDrcle(test657);
+        System.out.print(testResult);
     }
 }
